@@ -1,0 +1,47 @@
+a) Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 472 bytes | 157.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ea16b/assignment2.git
+   fca746a..e1dbc9e  master -> master
+
+b) 9. Used command "git shortlog -s -n"
+	3 commits by me
+	6 commits by Esteban
+
+c) Wed Sep 25 18:13:30 2019 -0400. Used command "git log -- .gitignore"
+
+d) Branches can be used when multiple people are working on the same project to prevent
+	issues that could occur when working on the same piece of code at the same
+	time. 
+   People can use individual branches for  adding portions of code to a project.
+   Branches could be used for fixing bugs or issues in the program.
+
+e) Git log shows the commit history, but git status will not. Git status will show the
+state of the directory.
+
+f) git log --follow -- Vehicle.h
+
+g) git log --grep="file"
+
+h) Inheritence happens in classes. One class can inherit features of another class.
+   Polymorphism happens in methods. Multiple classes can utilize the same function.
+   Encapsulation refers to things such as classes. Various data and functions work
+	together to serve a specific purpose.
+
+i) The main difference between the "Dictator and Lieutenants" and "Integration Manager"
+	workflows is the addition of Lieutenants in the "Dictator and Lieutenants"
+	workflow. In "Integration Manager," there are only developers and the manager. 
+	In "Dictator and Lieutenants," there are developers, lieutenants who oversee
+	specific parts of the repository, and the dictator, who oversees the
+	lieutenants' masters and the overall master.
+
+j) Using the "Dictator and Lieutenants" workflow would make merging easier for large
+	teams because it delegates a few people to deal with merging and merge
+	conflicts. If everyone merged their own work, it would be extremely time
+	consuming and tedious. Having a lieutenant in charge of specific portions of
+	the project can help with making merges to the master more significant and
+	efficient.
