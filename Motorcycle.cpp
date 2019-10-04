@@ -1,6 +1,7 @@
 //Created by Eliza Anderson
 
-#include "Motorcycle.cpp"
+#include "Motorcycle.h"
+#include <cmath>
 
 //constructor
 Motorcycle::Motorcycle(string brand, string model, string fuelType, string engineType)
@@ -39,7 +40,8 @@ double Motorcycle::mileageEstimate(double time)
 	{
 		mileage += mileage * 0.2;
 	}
-	return mileage;
+
+	return floor(mileage);
 }
 
 string Motorcycle::toString()

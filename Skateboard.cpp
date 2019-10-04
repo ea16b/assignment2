@@ -3,6 +3,7 @@
 #include "Skateboard.h"
 #include <stdlib.h>
 #include <time.h>
+#include <cmath>
 
 //constructor
 Skateboard::Skateboard(string brand, string model)
@@ -32,7 +33,7 @@ double Skateboard::mileageEstimate(double time)
 		mileage = mileage + random;
 	}
 
-	return mileage;
+	return floor(mileage);
 }
 
 string Skateboard::toString()

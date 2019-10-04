@@ -3,6 +3,7 @@
 #include "Jet.h"
 #include <stdlib.h>
 #include <time.h>
+#include <cmath>
 
 //constructor
 Jet::Jet(string brand, string model, string fuelType, int engineCount)
@@ -45,7 +46,7 @@ double Jet::mileageEstimate(double time)
 		mileage +- mileage * 0.055;
 	}
 
-	return mileage;
+	return floor(mileage);
 }
 
 string Jet::toString()
