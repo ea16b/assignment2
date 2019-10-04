@@ -22,3 +22,5 @@ class Motorcycle : public PoweredVehicle
 		virtual double mileageEstimate(double time);
 		virtual string toString();
 };
+
+#endif //DRIVINGSIMULATOR_MOTORCYLE_H
