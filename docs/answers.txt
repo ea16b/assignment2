@@ -45,3 +45,14 @@ j) Using the "Dictator and Lieutenants" workflow would make merging easier for l
 	consuming and tedious. Having a lieutenant in charge of specific portions of
 	the project can help with making merges to the master more significant and
 	efficient.
+
+-------------------------------------------------------------------------------------
+
+5. OOP principles
+	Polymorphism is present because the classes use some of the same functions,
+		adapting them to serve their individual needs (such as the toString
+		functions and the constructors).
+	Encapsulation is also used in each of the classes included in the prototype.
+		The classes have private and public data and functions that work
+		to create a cohesive program for each type of vehicle.
+
