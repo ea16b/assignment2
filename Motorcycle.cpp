@@ -22,9 +22,17 @@ void Motorcycle::setEngineType(string engineType)
 	myEngineType = engineType;
 }
 
+/* Mileage = 35 miles per minute.
+ * Boost mileage by 20% if the engine type
+ * is "double."
+ */
 double Motorcycle::mileageEstimate(double time)
 {
-	double mileage = ________;
+	double mileage = 35 * time;
+	if (engineType == "double")
+	{
+		mileage += mileage * 0.2;
+	}
 	return mileage;
 }
 
