@@ -12,7 +12,7 @@ Jet::Jet(string brand, string model, string fuelType, int engineCount)
 	setEngineCount(engineCount);
 }
 
-Jet::~Jet() = defaualt;
+Jet::~Jet() = default;
 
 int Jet::getEngineCount()
 {
