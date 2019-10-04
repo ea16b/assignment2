@@ -10,7 +10,7 @@ class Motorcycle : public PoweredVehicle
 	private:
 		string myEngineType;
 
-	Public:
+	public:
 		Motorcycle();
 
 		explicit Motorcycle(string brand, string model, string fuelType,
