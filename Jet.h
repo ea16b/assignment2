@@ -7,7 +7,7 @@
 
 class Jet : public PoweredVehicle
 {
-	//addition member data
+	//additional member data
 	private:
 		int myEngineCount;
 

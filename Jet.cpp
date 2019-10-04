@@ -11,7 +11,7 @@ Jet::Jet(string brand, string model, string fuelType, int engineCount)
 	setModel(model);
 	setFuelType(fuelType);
 	
-	//addition member data with default value of 1
+	//additional member data with default value of 1
 	setEngineCount(engineCount);
 }
 

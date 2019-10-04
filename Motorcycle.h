@@ -7,19 +7,25 @@
 
 class Motorcycle : public PoweredVehicle
 {
+	//additional member data
 	private:
 		string myEngineType;
 
 	public:
-		Motorcycle();
-
+		//constructor
 		explicit Motorcycle(string brand, string model, string fuelType,
 			string engineType);
 
+		//destructor
 		virtual ~Motorcycle();
+
+		//getter and setter
 		string getEngineType();
 		void setEngineType(string engineType);
+
+		//mileage function
 		virtual double mileageEstimate(double time);
+
 		virtual string toString();
 };
 

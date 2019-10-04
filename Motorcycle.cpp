@@ -2,21 +2,27 @@
 
 #include "Motorcycle.cpp"
 
+//constructor
 Motorcycle::Motorcycle(string brand, string model, string fuelType, string engineType)
 {
 	setBrand(brand);
 	setModel(model);
 	setFuelType(fuelType);
+
+	//additional member data with default value of 1
 	setEngineType(engineType);
 }
 
+//destructor
 Motorcycle::~Motorcycle() = default;
 
+//getter
 string Motorcycle::getEngineType()
 {
 	return myEngineType;
 }
 
+//setter
 void Motorcycle::setEngineType(string engineType)
 {
 	myEngineType = engineType;
