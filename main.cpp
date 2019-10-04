@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Car.h"
 #include "Bicycle.h"
+
+//include Jet, Skateboard, and Motorcycle classes
 #include "Jet.h"
 #include "Skateboard.h"
 #include "Motorcycle.h"
@@ -19,8 +21,10 @@ int main() {
     vehiclesArray[3] = new Car("Tesla", "T2", "electricity", "large");
     vehiclesArray[4] = new Bicycle("Mizuno", "Wave", 10);
     vehiclesArray[5] = new Car("BMW", "X5", "diesel", "grande");
+
+    //two test cases for each Jet, Skateboard, and Motorcycle
     vehiclesArray[6] = new Jet("Gulfstream", "G650", "aviation", 2);
-    vehiclesArray[7] = new Jet("Boeing", "747", "aviation", 4);
+    vehiclesArray[7] = new Jet("Boeing", "747", "Rocket", 4);
     vehiclesArray[8] = new Skateboard("Element", "Calavera");
     vehiclesArray[9] = new Skateboard("Flip", "Penny");
     vehiclesArray[10] = new Motorcycle("Yamaha", "VMax", "unleaded", "Four-cylinder");
