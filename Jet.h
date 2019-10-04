@@ -3,15 +3,16 @@
 #ifndef DRIVINGSIMULATOR_JET_H
 #define DRIVINGSIMULATOR_JET_H
 
-#include "Vehicle.h"
+#include "PoweredVehicle.h"
 
-class Jet : public Vehicle
+class Jet : public PoweredVehicle
 {
 	private:
-		int myEngineCount
+		int myEngineCount;
 
 	public:
-		explicit Jet(string brand, string model, int engineCount = 1;
+		explicit Jet(string brand, string model, string fuelType,
+			int engineCount = 1);
 
 		virtual ~Jet();
 		int getEngineCount();
