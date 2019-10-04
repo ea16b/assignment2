@@ -7,16 +7,23 @@
 
 class Jet : public PoweredVehicle
 {
+	//addition member data
 	private:
 		int myEngineCount;
 
 	public:
+		//constructor
 		explicit Jet(string brand, string model, string fuelType,
 			int engineCount = 1);
 
+		//destructor
 		virtual ~Jet();
+
+		//getter and setter
 		int getEngineCount();
 		void setEngineCount(int engineCount);
+
+		//mileage function
 		virtual double mileageEstimate(double time);
 
 		virtual string toString();
