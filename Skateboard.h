@@ -8,9 +8,13 @@
 class Skateboard : public Vehicle
 {
 	public:
+		//constructor
 		explicit Skateboard (string brand, string model);
 
+		//destructor
 		virtual ~Skateboard();
+
+		//mileage function
 		virtual double mileageEstimate(double time);
 
 		virtual string toString();
