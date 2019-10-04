@@ -8,17 +8,17 @@
 class Motorcycle : public PoweredVehicle
 {
 	private:
-		______________;
+		string myEngineType;
 
 	Public:
 		Motorcycle();
 
 		explicit Motorcycle(string brand, string model, string fuelType,
-			_____________);
+			string engineType);
 
 		virtual ~Motorcycle();
-		//getter
-		//setter
+		string getEngineType();
+		void setEngineType(string engineType);
 		virtual double mileageEstimate(double time);
 		virtual string toString();
 };
